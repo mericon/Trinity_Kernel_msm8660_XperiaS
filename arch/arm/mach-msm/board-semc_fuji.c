@@ -7949,11 +7949,12 @@ static struct msm_board_data msm8x60_fuji_board_data __initdata = {
 	.gpiomux_cfgs = semc_fuji_gpiomux_cfgs,
 };
 
-static void __init msm8x60_init(struct msm_board_data *board_data)
-{
+static void __init msm8x60_init(struct msm_board_data *board_data) 
+{   
 	uint32_t soc_platform_version;
-
+    
 	pmic_reset_irq = PM8058_IRQ_BASE + PM8058_RESOUT_IRQ;
+
 	/*
 	 * Initialize RPM first as other drivers and devices may need
 	 * it for their initialization.

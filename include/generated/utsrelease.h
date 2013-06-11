@@ -1,1 +1,1 @@
-#define UTS_RELEASE "3.4.0HaxxorX-gd0fdbab-dirty"
+#define UTS_RELEASE "3.4.0HaxxorX-g193aec9-dirty"
