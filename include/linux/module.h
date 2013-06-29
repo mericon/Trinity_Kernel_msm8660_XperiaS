@@ -17,6 +17,17 @@
 #include <linux/moduleparam.h>
 #include <linux/tracepoint.h>
 #include <linux/export.h>
+#include <linux/cpu.h>
+#include <linux/cpumask.h>
+#include <linux/cpufreq.h>
+#include <linux/mutex.h>
+#include <linux/sched.h>
+#include <linux/tick.h>
+#include <linux/time.h>
+#include <linux/timer.h>
+#include <linux/workqueue.h>
+#include <linux/kthread.h>
+#include <linux/mutex.h>
 
 #include <linux/percpu.h>
 #include <asm/module.h>

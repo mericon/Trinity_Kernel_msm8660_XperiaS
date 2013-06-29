@@ -112,6 +112,7 @@
 #include <mach/restart.h>
 #include <mach/board-msm8660.h>
 #include <mach/iommu_domains.h>
+#include <linux/msm_tsens.h> 
 
 #include <mach/simple_remote_msm8x60_pf.h>
 
@@ -4214,7 +4215,7 @@ static struct platform_device *fuji_devices[] __initdata = {
 #ifdef CONFIG_SEMC_CHARGER_CRADLE_ARCH
 	&semc_chg_cradle,
 #endif
-	&msm_tsens_device,
+	/*&msm_tsens_device,*/
 	&msm8660_rpm_device,
 #ifdef CONFIG_FUJI_GPIO_KEYPAD
 	&gpio_key_device,
