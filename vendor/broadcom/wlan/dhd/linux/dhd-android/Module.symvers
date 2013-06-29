@@ -1,0 +1,2 @@
+0xb1eb281e	bcmsdh_remove	/home/haxxor/Trinity/Trinity_Kernel_msm8660_XperiaS/vendor/broadcom/wlan/dhd/linux/dhd-android/bcm4330	EXPORT_SYMBOL
+0x8e0918bc	bcmsdh_probe	/home/haxxor/Trinity/Trinity_Kernel_msm8660_XperiaS/vendor/broadcom/wlan/dhd/linux/dhd-android/bcm4330	EXPORT_SYMBOL
